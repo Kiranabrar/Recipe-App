@@ -9,7 +9,7 @@ import Category from './components/Category';
 function App() {
   return (
     <>
-    <BrowserRouter basename='/Foodie-app'>
+    <BrowserRouter basename='/Recipe-App'>
       <Routes>
         <Route  path="/" element={<Food/>} />
         <Route index element={<Food/>}/>
