@@ -35,7 +35,8 @@ const RecipeDetail = () => {
                         <h3>Category {item.strCategory}</h3>
                     </div>
                 </div>
-                 <div className="recipe-details">
+                 <div className="recipe-details"> 
+                
                     <div className="ingredients">
                         <h2>Ingredients</h2>
                         <h4>{item.strIngredient1}:{item.strMeasure1}</h4>

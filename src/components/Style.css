@@ -84,13 +84,22 @@ body {
 
 .search-bar {
     margin: 1rem 0;
-    width: 400px;
+    width: auto;
     height: 40px;
     border: none;
     outline: none;
     border-radius: 1rem;
     padding: 0.3rem 1rem;
 }
+
+
+@media screen and (min-width: 470px) {
+    .search-bar {
+       
+        width: 400px;
+       
+    }}
+
 
 /*Recipe detail styles */
 
@@ -116,10 +125,17 @@ body {
 .recipe-details {
     width: 70%;
     margin: 2rem 2rem;
-    display: flex;
+    
     justify-content: space-between;
-    align-items: center;
+    
 }
+@media screen and (min-width: 500px) {
+    .recipe-details {
+       
+        display: flex;
+       
+    }}
+
 
 .ingredients,
 .instructions {
@@ -131,6 +147,7 @@ body {
     margin-top: 1.5rem;
     font-weight: bold;
     font-size: 18px;
+
 }
 
 iframe {
